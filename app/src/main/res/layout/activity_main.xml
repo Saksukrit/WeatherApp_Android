@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/tvLocal"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#4000FF"/>
+
+    <TextView
+        android:id="@+id/tvTemp"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:textStyle="italic"
+        android:textSize="80sp"
+        android:textColor="#F78181"/>
+
+    <TextView
+        android:id="@+id/tvDate"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_gravity="bottom"
+        android:textStyle="italic"
+        android:textSize="20sp"
+        android:layout_weight="0.09"
+        android:textColor="#088A08"/>
+
+    <TextView
+        android:id="@+id/tvWind"
+        android:layout_width="match_parent"
+        android:layout_height="182dp"
+        android:layout_gravity="bottom"
+        android:textStyle="italic"
+        android:textSize="25sp"
+        android:textColor="#088A08"/>
+
+
+</LinearLayout>
